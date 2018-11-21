@@ -4,7 +4,6 @@ use std::collections::VecDeque;
 
 use num_traits::{Num, NumCast, zero};
 
-
 pub struct MovingAverage<T>
     where T: Num + NumCast + Copy {
     data: VecDeque<T>,
